@@ -221,9 +221,9 @@ ol {
 	margin: 0 0 1.5em 0;
 }
 
-body,
+/* body,
 input,
-textarea {}
+textarea {} */
 
 a {
 	color: #454545;
@@ -342,10 +342,10 @@ h2.pagetitle {
 04. Navigation
 ============================================================ */
 
-.navbar-fixed-top .container {
+/* .navbar-fixed-top .container { */
 	/* Uncomment to make nav expand full width */
-	/*	width: auto; */
-}
+		/* width: auto; */
+/* } */
 
 .navbar .brand {
 	margin-left: 0;
@@ -451,6 +451,7 @@ header .logo {
 /* --- Header slider --- */
 
 #header-wrapper.header-slider {
+	background-color: #2b2a2a;
 	background: #444 url(../img/bg/bg-1.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -526,6 +527,14 @@ header .logo {
 #header-wrapper input[type=submit]:hover,
 #header-wrapper input[type=submit]:active {
 	background: #43413e !important;
+}
+
+.curved-img{
+	border-radius: 10px;
+}
+
+.shadow{
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
 section.section {
@@ -612,6 +621,10 @@ section.spacer blockquote cite {
 
 #portfolio {
 	padding-bottom: 0;
+}
+img{
+	aspect-ratio: 1 / 1;
+	border-radius: 10px;
 }
 
 /* === portfolio filter === */
@@ -999,7 +1012,6 @@ section#about {
 
 #tweet ul li:before {
 	font-family: 'FontAwesome';
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -1453,12 +1465,12 @@ i.icon-white {
 	-webkit-box-shadow: none;
 	background-color: #545454;
 	border-color: none;
-	*background-color: #545454;
+	/* background-color: #545454; */
 	background-image: none;
 	/* Darken IE7 buttons by default so they stand out more given they won't have borders */
 	filter: none;
 	border: none;
-	*border: 0;
+	/* border: 0; */
 	border-bottom-color: none;
 }
 
@@ -1479,7 +1491,7 @@ i.icon-white {
 .btn[disabled] {
 	color: #fff;
 	background-color: #333;
-	*background-color: #333;
+	background-color: #333;
 }
 
 .btn.btn-theme:hover {
@@ -1533,7 +1545,7 @@ i.icon-white {
 	color: #ffffff;
 	text-shadow: none;
 	background-color: #09828c;
-	*background-color: #09828c;
+	background-color: #09828c;
 	background-image: none;
 	border-color: none;
 	filter: none;
@@ -1547,7 +1559,7 @@ i.icon-white {
 .btn-primary[disabled] {
 	color: #ffffff;
 	background: #065158;
-	*background-color: #065158;
+	background-color: #065158;
 }
 
 .btn-primary:active,
@@ -1559,7 +1571,7 @@ i.icon-white {
 	color: #ffffff;
 	text-shadow: none;
 	background-color: #ffe873;
-	*background-color: #ffe873;
+	background-color: #ffe873;
 	background-image: none;
 	border-color: none;
 	filter: none;
@@ -1573,7 +1585,7 @@ i.icon-white {
 .btn-warning[disabled] {
 	color: #ffffff;
 	background: #b88f22;
-	*background: #b88f22;
+	background: #b88f22;
 }
 
 .btn-warning:active,
@@ -1585,7 +1597,7 @@ i.icon-white {
 	color: #ffffff;
 	text-shadow: none;
 	background-color: #f36f36;
-	*background-color: #f36f36;
+	background-color: #f36f36;
 	background-image: none;
 	border-color: none;
 	filter: none;
@@ -1599,7 +1611,7 @@ i.icon-white {
 .btn-danger[disabled] {
 	color: #ffffff;
 	background: #db5f58;
-	*background: #db5f58;
+	background: #db5f58;
 }
 
 .btn-danger:active,
@@ -1611,7 +1623,7 @@ i.icon-white {
 	color: #ffffff;
 	text-shadow: none;
 	background-color: #1bac91;
-	*background-color: #1bac91;
+	background-color: #1bac91;
 	background-image: none;
 	border-color: none;
 	filter: none;
@@ -1625,7 +1637,7 @@ i.icon-white {
 .btn-success[disabled] {
 	color: #ffffff;
 	background: #55ba93;
-	*background: #55ba93;
+	background: #55ba93;
 }
 
 .btn-success:active,
@@ -1637,7 +1649,7 @@ i.icon-white {
 	color: #ffffff;
 	text-shadow: none;
 	background-color: #4dbdc6;
-	*background-color: #4dbdc6;
+	background-color: #4dbdc6;
 	background-image: none;
 	border-color: none;
 	filter: none;
@@ -1651,7 +1663,7 @@ i.icon-white {
 .btn-info[disabled] {
 	color: #ffffff;
 	background: #6a9ad0;
-	*background: #6a9ad0;
+	background: #6a9ad0;
 }
 
 .btn-info:active,
@@ -1663,7 +1675,7 @@ i.icon-white {
 	color: #ffffff;
 	text-shadow: none;
 	background-color: #3c3c3c;
-	*background-color: #3c3c3c;
+	background-color: #3c3c3c;
 	background-image: none;
 	border-color: none;
 	filter: none;
@@ -1677,7 +1689,7 @@ i.icon-white {
 .btn-inverse[disabled] {
 	color: #ffffff;
 	background: #2b2a2a;
-	*background: #2b2a2a;
+	background: #2b2a2a;
 }
 
 .btn-inverse:active,
@@ -1827,7 +1839,7 @@ i.icon-white {
 		display: block;
 		text-align: center
 	}
-	.job-position: {
+	.job-position {
 		margin-bottom: 1.5em;
 	}
 	.navbar-fixed-top,
