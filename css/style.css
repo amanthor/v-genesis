@@ -1860,3 +1860,13 @@ i.icon-white {
 .portfolio-item.grid {
 	margin: .8em !important;
 }
+
+.flex-no-center {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: stretch;
+	gap: 100px;
+	align-content: flex-start;
+	justify-content: center;
+  }
